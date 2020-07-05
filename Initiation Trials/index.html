@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset='UTF-8'>
+    <title>Welcome!</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/076c3ad557.js" crossorigin="anonymous"></script> 
+    <script src="js/calc.js" async></script>
+    <script src="js/carousel.js" async></script>
+  </head>
+  <body>
+    <div class="content">
+      <div class="intro">
+      
+        <nav>
+          <div class="nav_inner">
+            <a class="nav_link" href="#personal_info">        
+              <i class="fa fa-user" aria-hidden="true"></i>
+              <span>Обо мне</span>
+            </a>
+            <a class="nav_link" href="#games">        
+              <i class="fa fa-gamepad" aria-hidden="true"></i>
+              <span>Любимые игры</span>        
+            </a>
+            <a class="nav_link" href="#contacts">        
+              <i class="fa fa-id-card" aria-hidden="true"></i>
+              <span>Контакты</span>        
+            </a>
+          </div>
+        </nav>
+      
+        <img src="images/background.jpg" alt="background" class="background_image">     
+      
+        <header>
+          <img src="images/photo.jpg" alt="my photo" class="photo">
+          <div class="quote_block">
+            <p class="quote_text">
+              Не столь важно, как медленно ты идешь, 
+              как то, как долго ты идешь, не останавливаясь.
+            </p>
+            <span class="quote_author_text">
+              — Конфуций
+            </span>   
+          </div>  
+        </header>
+        
+        <main>
+          <section class="left">
+            <div class="favorite_things">
+              <h4>Любимые писатели:</h4>
+              <ul>
+                <li>Ф. М. Достоевский</li>
+                <li>Л. Н. Толстой</li>
+                <li>М. Ю. Лермрнтов</li>
+                <li>Н. В. Гоголь</li>
+              </ul>
+            </div>
+            <div class="favorite_things">
+              <h4>Любимые фильмы:</h4>
+              <ul>
+                <li>Побег из Шоушенка</li>
+                <li>Призрак Оперы</li>
+                <li>Унесённые призраками</li>
+                <li>Властелин колец</li>
+              </ul>              
+            </div>
+            <a id="contacts"></a>
+            <div class="contacts">
+              <h4>Контакты:</h4>        
+              <i class="fa fa-phone" aria-hidden="true"></i><span>89023584246</span><br>
+              <i class="fa fa-envelope-o" aria-hidden="true"></i><span>nikolai-4545@mail.ru</span><br>
+              <i class="fa fa-vk" aria-hidden="true"></i><a href="https://vk.com/nikolai4545">https://vk.com/nikolai4545</a><br>
+              <i class="fa fa-github" aria-hidden="true"></i><a href="https://github.com/NikolaiNikollski">https://github.com/NikolaiNikollski</a><br>   
+            </div>
+            <iframe src="https://www.youtube.com/embed/ieoDds5tn6Q" allowfullscreen></iframe>
+          </section>
+          <section class="right">
+            <div class="personal_info_block">
+              <a id="personal_info"></a>
+              <h1>Никольский Николай</h1>
+              <div class="dash"></div>
+              <p>
+                Здравствуйте, меня зовут Николай, мне 18 лет. Я окончил среднюю общеобразовательную школу №27 г. Йошкар-Олы.
+                Сейчас учусь на первом курсе в Поволжском государственном технологическом университете, также известном как 'Волгатех’.
+                Большую часть времени я посвящаю учебе, в свободное время играю в компьютерные игры, гуляю с друзьями, нередко читаю книги.
+              </p>
+            </div>
+            <div class="my_school_block">
+              <h2>Моя школа</h2>
+              <p class="my_school_text">
+                Школа мне запомнилась квалификацией и талантом к обучению у педагогического состава, любовью админинистрации к своей школе,
+                многие из них, несмотря на весьма и весьма преклонный возраст не растеряли хватку и продолжают трудиться на благо отечества.
+                По моему мнению, в среднем на одного 'учителя-пофигиста' в моей школе приходится 2-3 учителя по призванию .
+                (хороший результат для общеобразовательной школы России).
+
+              </p>
+            </div>
+            <div class="my_university_block">
+              <h2>Мой унивеситет</h2>             
+              <p class="my_university_text">
+                После школы я выбирал между профессией инженера и программиста. Рассудив, что сфера IT неплохо 
+                развита и продолжает активно развиваться в России и в Йошкар-Оле в частности и что в Республике Марий Эл 
+                катастрофически мало промышленных предприятий я сделал выбор в пользу IT. Я поступил Волгатех, потому что
+                не видел смысла покидать родной город, когда в нем есть все условия для развития в IT сфере, а на ПС
+                успешно обучают программистов, которые работают в таких кампаниях как Trevelline, Ispring, Omega-R.
+              </p>
+            </div>
+          </section>
+        </main>
+      </div>  
+      
+      <div class="games_block">
+        <a id="games"></a>
+        <h3>Любимые игры</h3>
+        <div class="games_row">    
+          <div class="carousel_button" id="left_carrosel_button" >
+            <div class="top_line"></div>
+            <div class="bottom_line"></div>          
+          </div>
+          <div class="carousel_button" id="right_carrosel_button">
+            <div class="top_line"></div>
+            <div class="bottom_line"></div>          
+          </div>
+ 
+          <div class="article">
+            <img src="images/dota2.jpg" alt="game_image" class="game_image">
+            <h3 class="games_title">Dota 2</h3>
+            <p class="games_annotation">
+              Dota 2 — компьютерная 
+              многопользовательская командная 
+              игра в жанре multiplayer online 
+              battle arena, разработанная 
+              корпорацией Valve. Игра является 
+              продолжением DotA — 
+              пользовательской карты-модификации
+              для игры Warcraft III: Reign of 
+              Chaos и дополнения к ней 
+              Warcraft III: The Frozen Throne.
+              Игра изображает сражение на карте 
+              особого вида; в каждом матче
+              участвуют две команды по пять 
+              игроков, управляющих «героями» —
+              персонажами с различными наборами
+              способностей.
+            </p>
+          </div>
+          <div class="article" id="awake">
+            <img src="images/dark_souls.jpg" alt="game_image" class="game_image">
+            <h3 class="games_title">Dark Souls</h3>
+            <p class="games_annotation">
+              Dark Souls — компьютерная игра в 
+              жанре action/RPG
+              с открытым миром, разработанная 
+              японской компанией From Software 
+              и выпущенная в 2011 году. 
+              Действие игры разворачивается в 
+              вымышленном королевстве Лордран, 
+              напоминающем средневековую Европу.
+              Лордран поражен проклятием, 
+              обращающим его жителей в нежить;
+            </p>
+          </div>      
+          <div class="article" id="insidious">
+            <img src="images/warcraft3.jpg" alt="game_image" class="game_image">
+            <h3 class="games_title">Warcraft III</h3>
+            <p class="games_annotation">
+              Warcraft III: Reign of Chaos 
+              (от англ. warcraft — военное 
+              ремесло, reign of chaos — 
+              господство хаоса) — компьютерная 
+              игра в жанре стратегии в реальном 
+              времени с элементами RPG. 
+              Разработана компанией Blizzard 
+              Entertainment при поддержке 
+              Vivendi Universal и выпущена в 
+              июле 2002 года.
+            </p>
+          </div>      
+          <div class="article" id="gravity">
+            <img src="images/europa_universalis4.jpg" alt="game_image" class="game_image">
+            <h3 class="games_title">Europa Universalis IV</h3>
+            <p class="games_annotation">
+              Europa Universalis IV — это 
+              крупная видеоигра в жанре 
+              глобальной стратегии из серии
+              Europa Universalis, разработанная
+              Paradox Development Studio и 
+              продаваемая компанией Paradox 
+              Interactive. Игра была анонсирована
+              в августе 2012 года, выпущена 
+              13 августа 2013 года. В этой игре
+              игроки могут управлять любой 
+              страной, доступной на карте, 
+              от позднего Средневековья до 
+              окончания раннего Нового 
+              времени (1444 — 1821), управляя 
+              торговлей, дипломатией, войнами, 
+              колонизацией и многим другим.
+            </p>
+          </div>
+          <div class="article" id="the_green_mile">
+            <img src="images/witcher3.jpg" alt="game_image" class="game_image">
+            <h3 class="games_title">The Witcher 3: Wild Hunt</h3>
+            <p class="games_annotation">
+              Ведьмак 3: Дикая Охота  — 
+              мультиплатформенная компьютерная 
+              игра в жанре action/RPG, 
+              разработанная польской студией 
+              CD Projekt RED по мотивам серии 
+              романов «Ведьмак» польского 
+              писателя Анджея Сапковского.
+              Действие игры происходит в 
+              вымышленном фэнтезийном мире, 
+              основанном на славянской 
+              мифологии.Главный герой Геральт 
+              из Ривии, «ведьмак» — профессиональный 
+              охотник на чудовищ В отличие 
+              от предыдущих игр серии, 
+              Ведьмак 3: Дикая Охота» —
+              игра с открытым миром: игрок может 
+              свободно путешествовать по обширным 
+              территориям, самостоятельно находя 
+              новые места и задания.
+            </p>
+          </div>
+          <div class="article" id="forrest_gump">
+            <img src="images/minecraft.jpg" alt="game_image" class="game_image">
+            <h3 class="games_title">Minecraft</h3>
+            <p class="games_annotation">
+              Minecraft — компьютерная инди-игра 
+              в жанре песочницы, разработанная 
+              шведским программистом Маркусом 
+              Перссоном и выпущенная его 
+              компанией Mojang AB. Minecraft
+              даёт в распоряжение игрока процедурно
+              генерируемый и изменяемый трёхмерный
+              мир, полностью состоящий из кубов — 
+              его можно свободно перестраивать, 
+              создавая из этих кубов сложные 
+              сооружения — эта особенность 
+              делает игру схожей с конструктором 
+              LEGO. Minecraft не ставит перед
+              игроком каких-либо конкретных 
+              целей, но предлагает ему свободу 
+              действий: например, игрок может
+              исследовать мир, добывать полезные
+              ископаемые, сражаться с противниками 
+              и многое другое
+            </p>
+          </div>
+          <div class="article" id="schindlers_list">
+            <img src="images/total_war_shogun2.jpg" alt="game_image" class="game_image">
+            <h3 class="games_title">Total War: Shogun 2</h3>
+            <p class="games_annotation">
+              Total War: Shogun 2 — компьютерная игра
+              в жанре пошаговой стратегии и военной 
+              тактики, разработанная британской 
+              компанией The Creative Assembly и 
+              издаваемая японской компанией SEGA.
+              В игре совмещены режимы пошаговой 
+              тратегии и тактики в реальном времени.
+              Управление государством (
+              в терминологии Total War — «фракция»)
+              происходит на стратегической карте 
+              в пошаговом режиме. Игрок занимается 
+              исследованиями, разведкой, экономикой, 
+              религией и другими важнейшими вопросами 
+              государства. Морские и сухопутные 
+              сражения происходят в реальном времени.[4]
+              Действие игры происходит на трёх из четырёх
+              крупнейших японских островов: Хонсю,
+              Кюсю и Сикоку, а временные рамки
+              охватывают период окончания Сэнгоку Дзидай
+            </p>
+          </div>
+          <div class="article" id="inception">
+            <img src="images/stronghold.jpg" alt="game_image" class="game_image">
+            <h3 class="games_title">Stronghold</h3>
+            <p class="games_annotation">
+              Stronghold — компьютерная игра жанра 
+              «стратегия в реальном времени», 
+              выпущенная Firefly Studios в 2001 
+              году. Игра симулирует строительство,
+              штурм или оборону средневекового замка,
+              а также развитие средневекового 
+              поселения. Игра включает в себя 
+              большую военную кампанию из двадцати 
+              одной миссии, сюжетно связанных и
+              позволяющих игроку пройти все этапы
+              развития от строительства главного 
+              здания вплоть до использования всех 
+              войск для штурма вражеского замка.
+              Согласно задумке разработчиков,
+              действие происходит в Средневековой 
+              Англии и начинается, согласно 
+              календарным данным, в 1066 году,
+            </p>
+          </div>
+          <div class="article" id="the_lion_king">
+            <img src="images/darkest_dungeon.jpg" alt="game_image" class="game_image">
+            <h3 class="games_title">Darkest Dungeon</h3>
+            <p class="games_annotation">
+              Darkest Dungeon  — компьютерная 
+              ролевая игра с roguelike-элементами,
+              разработанная и выпущенная независимой 
+              канадской студией Red Hook Studios.
+              Игрок управляет группой искателей 
+              приключений, обследующих подземелья 
+              под старинным поместьем. Перед каждым 
+              походом игрок должен выбрать четырех 
+              героев из предлагаемого набора и 
+              провести их через генерируемые случайным 
+              образом подземелья, собирая сокровища,
+              фамильные реликвии и уничтожая 
+              встречающихся на пути различных чудовищ. 
+            </p>
+          </div>      
+        </div>      
+      </div>
+     </div>
+	</body>
+</html>   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
