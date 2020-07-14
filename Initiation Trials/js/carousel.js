@@ -22,7 +22,7 @@ function run() {
   }
 
   function showPrev() {
-    let slideToDelete = firstSlide + 3;       
+    let slideToDelete = firstSlide + 3;
     firstSlide--;
     if (firstSlide < 0) {             //контротль переполнения
       firstSlide = filmQuantity - 1;
