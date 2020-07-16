@@ -1,0 +1,296 @@
+2017/09/06 13:30:04 [error] 3920#7212: *1 CreateFile() "d:\projects\local/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2017/09/06 13:31:11 [notice] 7672#5240: signal process started
+2017/09/06 13:34:46 [error] 4724#7236: *1 directory index of "c:\dev\projects\local/images/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET /images/ HTTP/1.1", host: "localhost"
+2017/09/06 13:40:29 [error] 4724#7236: *8 CreateFile() "c:\dev\projects\local/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2017/09/06 13:40:30 [error] 4724#7236: *8 CreateFile() "c:\dev\projects\local/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2017/09/06 13:40:31 [error] 4724#7236: *8 CreateFile() "c:\dev\projects\local/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2017/09/06 13:40:39 [error] 4724#7236: *8 directory index of "c:\dev\projects\local/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2017/09/06 13:40:39 [error] 4724#7236: *8 CreateFile() "c:\dev\projects\local/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2017/09/06 13:40:40 [error] 4724#7236: *8 directory index of "c:\dev\projects\local/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2017/09/06 13:40:40 [error] 4724#7236: *8 CreateFile() "c:\dev\projects\local/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2017/09/06 13:40:57 [notice] 7124#1056: signal process started
+2017/09/06 13:42:09 [notice] 7252#5936: signal process started
+2017/09/06 13:42:09 [error] 7252#5936: CreateFile() "C:\dev\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2017/09/06 13:42:19 [error] 6660#6992: *15 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2017/09/06 13:42:19 [error] 6660#6992: *15 CreateFile() "c:\dev\projects\local/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2017/09/06 13:43:19 [notice] 3288#1016: signal process started
+2017/09/06 13:43:56 [error] 5180#8164: *8 rewrite or internal redirection cycle while processing "/index.php/index.php/index.php/index.php/index.php/index.php/index.php/index.php/index.php/index.php/index.php/images/info.png", client: 127.0.0.1, server: localhost, request: "GET /images/info.png HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2017/09/06 13:43:57 [error] 5180#8164: *10 rewrite or internal redirection cycle while processing "/index.php/index.php/index.php/index.php/index.php/index.php/index.php/index.php/index.php/index.php/index.php/favicon.ico", client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2017/09/06 13:44:01 [error] 5180#8164: *11 rewrite or internal redirection cycle while processing "/index.php/index.php/index.php/index.php/index.php/index.php/index.php/index.php/index.php/index.php/index.php/favicon.ico", client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2017/09/06 13:44:04 [error] 5180#8164: *12 rewrite or internal redirection cycle while processing "/index.php/index.php/index.php/index.php/index.php/index.php/index.php/index.php/index.php/index.php/index.php/images/info.png", client: 127.0.0.1, server: localhost, request: "GET /images/info.png HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2017/09/06 13:44:04 [error] 5180#8164: *14 rewrite or internal redirection cycle while processing "/index.php/index.php/index.php/index.php/index.php/index.php/index.php/index.php/index.php/index.php/index.php/favicon.ico", client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2017/09/06 13:44:30 [notice] 2588#4596: signal process started
+2017/09/06 13:44:40 [error] 7524#2860: *1 CreateFile() "c:\dev\projects\local/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2017/09/06 14:03:35 [notice] 6596#7120: signal process started
+2017/09/06 14:09:13 [notice] 8024#8032: signal process started
+2017/09/06 14:09:21 [error] 5212#1664: *1 CreateFile() "c:\dev\projects\local/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2020/07/16 15:20:32 [notice] 13092#6396: signal process started
+2020/07/16 15:21:17 [notice] 16048#5516: signal process started
+2020/07/16 15:21:17 [error] 16048#5516: CreateFile() "C:\Repository\TrevelLine\Lw1\dev\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2020/07/16 15:21:29 [notice] 13284#1140: signal process started
+2020/07/16 16:04:01 [error] 10464#8252: *1 CreateFile() "c:\dev\projects\local/images/example.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /images/example.png HTTP/1.1", host: "localhost"
+2020/07/16 16:04:01 [error] 10464#8252: *1 CreateFile() "c:\dev\projects\local/favicon.ico" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/images/example.png"
+2020/07/16 16:04:29 [error] 10464#8252: *1 CreateFile() "c:\dev\projects\local/images/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /images/info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:04:45 [notice] 16196#6736: signal process started
+2020/07/16 16:04:47 [error] 10464#8252: *2 CreateFile() "c:\dev\projects\local/images/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /images/info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:04:48 [error] 10464#8252: *3 CreateFile() "c:\dev\projects\local/images/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /images/info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:04:49 [error] 9828#5020: *4 CreateFile() "c:\dev\projects\local/images/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /images/info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:04:50 [error] 9828#5020: *4 CreateFile() "c:\dev\projects\local/images/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /images/info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:05:42 [notice] 4348#10512: signal process started
+2020/07/16 16:05:50 [error] 6244#4088: *6 CreateFile() "c:\dev\projects\local/images/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /images/info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:05:59 [error] 6244#4088: *6 CreateFile() "c:\dev\projects\local/data/images/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /data/images/info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:06:17 [error] 6244#4088: *6 CreateFile() "c:\dev\projects\local/data/images/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /data/images/info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:08:08 [error] 6244#4088: *8 CreateFile() "c:\dev\projects\local/some/example.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /some/example.html HTTP/1.1", host: "localhost"
+2020/07/16 16:09:02 [error] 6244#4088: *8 CreateFile() "c:\dev\projects\local/some/example.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /some/example.html HTTP/1.1", host: "localhost"
+2020/07/16 16:09:02 [error] 6244#4088: *8 CreateFile() "c:\dev\projects\local/some/example.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /some/example.html HTTP/1.1", host: "localhost"
+2020/07/16 16:09:03 [error] 6244#4088: *8 CreateFile() "c:\dev\projects\local/some/example.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /some/example.html HTTP/1.1", host: "localhost"
+2020/07/16 16:09:03 [error] 6244#4088: *8 CreateFile() "c:\dev\projects\local/some/example.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /some/example.html HTTP/1.1", host: "localhost"
+2020/07/16 16:09:03 [error] 6244#4088: *8 CreateFile() "c:\dev\projects\local/some/example.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /some/example.html HTTP/1.1", host: "localhost"
+2020/07/16 16:09:03 [error] 6244#4088: *8 CreateFile() "c:\dev\projects\local/some/example.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /some/example.html HTTP/1.1", host: "localhost"
+2020/07/16 16:09:03 [error] 6244#4088: *8 CreateFile() "c:\dev\projects\local/some/example.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /some/example.html HTTP/1.1", host: "localhost"
+2020/07/16 16:09:16 [error] 6244#4088: *8 CreateFile() "c:\dev\projects\local/images/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /images/info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:10:05 [notice] 6644#13600: signal process started
+2020/07/16 16:10:07 [error] 6244#4088: *11 CreateFile() "c:\dev\projects\local/images/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /images/info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:10:08 [error] 12728#740: *12 CreateFile() "c:\dev\projects\local/images/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /images/info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:10:08 [error] 12728#740: *12 CreateFile() "c:\dev\projects\local/images/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /images/info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:11:07 [error] 12728#740: *12 CreateFile() "c:\dev\projects\local/images/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /images/info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:12:01 [error] 12728#740: *12 CreateFile() "c:\dev\projects\local/images/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /images/info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:12:04 [notice] 2796#10104: signal process started
+2020/07/16 16:12:07 [error] 12728#740: *14 CreateFile() "c:\dev\projects\local/images/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /images/info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:12:28 [notice] 10556#6340: signal process started
+2020/07/16 16:12:31 [error] 1264#8372: *15 CreateFile() "c:\dev\projects\local/images/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /images/info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:12:31 [error] 13104#13628: *16 CreateFile() "c:\dev\projects\local/images/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /images/info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:12:31 [error] 13104#13628: *16 CreateFile() "c:\dev\projects\local/images/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /images/info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:13:45 [notice] 7388#10636: signal process started
+2020/07/16 16:13:48 [error] 14060#8948: *18 CreateFile() "c:\dev\projects\local/images/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /images/info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:13:48 [error] 14060#8948: *18 CreateFile() "c:\dev\projects\local/images/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /images/info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:13:49 [error] 14060#8948: *18 CreateFile() "c:\dev\projects\local/images/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /images/info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:13:49 [error] 14060#8948: *18 CreateFile() "c:\dev\projects\local/images/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /images/info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:13:49 [error] 14060#8948: *18 CreateFile() "c:\dev\projects\local/images/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /images/info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:14:19 [emerg] 11684#4328: unknown directive "serve" in C:\Repository\TrevelLine\Lw1\dev\nginx/conf/nginx.conf:11
+2020/07/16 16:14:33 [notice] 16308#9792: signal process started
+2020/07/16 16:14:53 [error] 12236#4288: *21 CreateFile() "c:\dev\projects\local/images/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /images/info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:16:57 [notice] 15012#10276: signal process started
+2020/07/16 16:17:01 [error] 7968#3080: *23 CreateFile() "C:/data/images/images/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /images/info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:17:01 [error] 7968#3080: *23 CreateFile() "C:/data/images/images/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /images/info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:17:01 [error] 7968#3080: *23 CreateFile() "C:/data/images/images/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /images/info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:17:01 [error] 7968#3080: *23 CreateFile() "C:/data/images/images/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /images/info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:20:11 [error] 7968#3080: *25 CreateFile() "C:/data/images/images/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /images/info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:22:10 [error] 7968#3080: *28 CreateFile() "C:/data/images/images/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /images/info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:40:57 [error] 7968#3080: *31 CreateFile() "C:/data/images/images/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /images/info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:40:57 [error] 7968#3080: *31 CreateFile() "C:/data/images/images/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /images/info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:44:18 [notice] 13556#10168: signal process started
+2020/07/16 16:44:24 [notice] 7724#6972: signal process started
+2020/07/16 16:44:24 [error] 7724#6972: CreateFile() "C:\Repository\TrevelLine\Lw1\dev\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2020/07/16 16:45:48 [notice] 13820#12244: signal process started
+2020/07/16 16:45:55 [error] 7892#14108: *1 CreateFile() "c:\dev\projects\local/images/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /images/info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:45:55 [error] 7892#14108: *1 CreateFile() "c:\dev\projects\local/images/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /images/info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:47:02 [error] 7892#14108: *2 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9123", host: "localhost"
+2020/07/16 16:47:46 [error] 7892#14108: *2 CreateFile() "c:\dev\projects\local/images/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /images/info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:50:08 [notice] 11352#11564: signal process started
+2020/07/16 16:51:04 [notice] 13512#8388: signal process started
+2020/07/16 16:53:02 [notice] 3300#8404: signal process started
+2020/07/16 16:54:26 [error] 12472#10764: *7 CreateFile() "C:\Repository\TrevelLine\Lw1\dev\nginx/html/images/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /images/info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:54:30 [notice] 16076#5092: signal process started
+2020/07/16 16:54:31 [error] 12472#10764: *8 CreateFile() "C:\Repository\TrevelLine\Lw1\dev\nginx/html/images/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /images/info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:54:32 [error] 12472#10764: *9 CreateFile() "C:\Repository\TrevelLine\Lw1\dev\nginx/html/images/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /images/info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:54:32 [error] 13036#14844: *10 CreateFile() "C:/data/images/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /images/info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:54:32 [error] 13036#14844: *10 CreateFile() "C:/data/images/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /images/info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:55:40 [error] 13036#14844: *12 CreateFile() "C:/data/images/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /images/info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:55:41 [error] 13036#14844: *12 CreateFile() "C:/data/images/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /images/info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:55:55 [error] 13036#14844: *12 CreateFile() "C:/data/images/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /images/info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:55:55 [error] 13036#14844: *12 CreateFile() "C:/data/images/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /images/info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:55:55 [error] 13036#14844: *12 CreateFile() "C:/data/images/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /images/info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:56:00 [error] 13036#14844: *12 CreateFile() "C:/data/www/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:56:03 [notice] 2036#12580: signal process started
+2020/07/16 16:56:05 [error] 13036#14844: *13 CreateFile() "C:/data/www/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:56:05 [error] 12032#14428: *14 CreateFile() "C:/data/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:56:05 [error] 12032#14428: *14 CreateFile() "C:/data/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:56:05 [error] 12032#14428: *14 CreateFile() "C:/data/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:57:43 [notice] 14960#7916: signal process started
+2020/07/16 16:58:53 [error] 7096#16160: *16 CreateFile() "C:/data/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:58:53 [error] 7096#16160: *16 CreateFile() "C:/data/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:58:53 [error] 7096#16160: *16 CreateFile() "C:/data/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:58:54 [error] 7096#16160: *16 CreateFile() "C:/data/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:58:54 [error] 7096#16160: *16 CreateFile() "C:/data/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:58:54 [error] 7096#16160: *16 CreateFile() "C:/data/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:58:54 [error] 7096#16160: *16 CreateFile() "C:/data/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:58:54 [error] 7096#16160: *16 CreateFile() "C:/data/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:58:58 [notice] 15376#1612: signal process started
+2020/07/16 16:59:00 [error] 7096#16160: *17 CreateFile() "C:/data/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:59:00 [error] 7096#16160: *18 CreateFile() "C:/data/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:59:00 [error] 1568#1344: *19 CreateFile() "C:/data/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:59:01 [error] 1568#1344: *19 CreateFile() "C:/data/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /info.png HTTP/1.1", host: "localhost"
+2020/07/16 16:59:01 [error] 1568#1344: *19 CreateFile() "C:/data/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /info.png HTTP/1.1", host: "localhost"
+2020/07/16 17:12:09 [notice] 4124#8100: signal process started
+2020/07/16 17:12:59 [notice] 12008#8140: signal process started
+2020/07/16 17:13:01 [notice] 10424#5192: signal process started
+2020/07/16 17:13:01 [error] 10424#5192: CreateFile() "C:\Repository\TrevelLine\Lw1\dev\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2020/07/16 17:13:32 [notice] 16240#6352: signal process started
+2020/07/16 17:14:17 [error] 1404#6340: *1 "C:/data/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2020/07/16 17:27:43 [emerg] 15344#14512: CreateFile() "C:\Repository\TrevelLine\Lw1\dev\nginx/conf/nginx.conf" failed (2: The system cannot find the file specified)
+2020/07/16 17:33:54 [emerg] 14396#15904: directive "client_max_body_size" is not terminated by ";" in C:\Repository\TrevelLine\Lw1\dev\nginx/conf/nginx.conf:22
+2020/07/16 17:34:08 [notice] 5220#3548: signal process started
+2020/07/16 18:16:31 [emerg] 8532#3356: "location" directive is not allowed here in C:\Repository\TrevelLine\Lw1\dev\nginx/conf/nginx.conf:20
+2020/07/16 18:17:17 [emerg] 2776#3380: "location" directive is not allowed here in C:\Repository\TrevelLine\Lw1\dev\nginx/conf/nginx.conf:20
+2020/07/16 18:19:40 [emerg] 5660#8308: "location" directive is not allowed here in C:\Repository\TrevelLine\Lw1\dev\nginx/conf/nginx.conf:20
+2020/07/16 18:21:55 [emerg] 5516#8720: "location" directive is not allowed here in C:\Repository\TrevelLine\Lw1\dev\nginx/conf/nginx.conf:20
+2020/07/16 18:21:59 [emerg] 5908#3248: "location" directive is not allowed here in C:\Repository\TrevelLine\Lw1\dev\nginx/conf/nginx.conf:20
+2020/07/16 18:22:24 [emerg] 15960#15924: "location" directive is not allowed here in C:\Repository\TrevelLine\Lw1\dev\nginx/conf/nginx.conf:20
+2020/07/16 18:32:26 [emerg] 6336#2736: "location" directive is not allowed here in C:\Repository\TrevelLine\Lw1\dev\nginx/conf/nginx.conf:20
+2020/07/16 18:32:37 [emerg] 16264#6404: "location" directive is not allowed here in C:\Repository\TrevelLine\Lw1\dev\nginx/conf/nginx.conf:20
+2020/07/16 18:32:39 [emerg] 7080#5344: "location" directive is not allowed here in C:\Repository\TrevelLine\Lw1\dev\nginx/conf/nginx.conf:20
+2020/07/16 18:33:13 [emerg] 6632#8548: "location" directive is not allowed here in C:\Repository\TrevelLine\Lw1\dev\nginx/conf/nginx.conf:11
+2020/07/16 18:34:02 [emerg] 10524#13892: unknown directive "sever" in C:\Repository\TrevelLine\Lw1\dev\nginx/conf/nginx.conf:20
+2020/07/16 18:34:10 [notice] 5988#3380: signal process started
+2020/07/16 18:35:02 [error] 2980#15588: *3 CreateFile() "c:\dev\projects\local/data/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /data/info.png HTTP/1.1", host: "localhost"
+2020/07/16 18:35:20 [error] 2980#15588: *3 CreateFile() "c:\dev\projects\local/data/images/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /data/images/info.png HTTP/1.1", host: "localhost"
+2020/07/16 18:38:18 [notice] 9008#11924: signal process started
+2020/07/16 18:39:48 [notice] 6972#13624: signal process started
+2020/07/16 18:39:52 [error] 7396#10036: *6 CreateFile() "c:\dev\projects\local/data/images/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /data/images/info.png HTTP/1.1", host: "localhost"
+2020/07/16 18:39:53 [error] 7396#10036: *6 CreateFile() "c:\dev\projects\local/data/images/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /data/images/info.png HTTP/1.1", host: "localhost"
+2020/07/16 18:39:53 [error] 7396#10036: *6 CreateFile() "c:\dev\projects\local/data/images/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /data/images/info.png HTTP/1.1", host: "localhost"
+2020/07/16 18:39:53 [error] 7396#10036: *6 CreateFile() "c:\dev\projects\local/data/images/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /data/images/info.png HTTP/1.1", host: "localhost"
+2020/07/16 18:39:53 [error] 7396#10036: *6 CreateFile() "c:\dev\projects\local/data/images/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /data/images/info.png HTTP/1.1", host: "localhost"
+2020/07/16 18:39:59 [error] 7396#10036: *6 CreateFile() "c:\dev\projects\local/data/info.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /data/info.png HTTP/1.1", host: "localhost"
+2020/07/16 18:42:03 [notice] 16260#12932: signal process started
+2020/07/16 19:11:05 [notice] 15384#13188: signal process started
+2020/07/16 19:12:32 [warn] 1352#14404: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:12:32 [notice] 1352#14404: signal process started
+2020/07/16 19:12:32 [warn] 9032#6624: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:12:32 [warn] 6924#6268: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:12:32 [warn] 1856#13840: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:12:32 [warn] 13572#14396: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:12:33 [error] 9032#5092: *1 CreateFile() "c:\dev\projects\local/index.txt" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /index.txt HTTP/1.1", host: "localhost"
+2020/07/16 19:14:16 [warn] 12888#12892: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:14:16 [warn] 12960#12964: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:14:16 [warn] 13032#13036: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:14:16 [warn] 13100#13104: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:14:17 [warn] 13172#13176: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:14:57 [warn] 13204#9608: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:14:57 [notice] 13204#9608: signal process started
+2020/07/16 19:14:57 [warn] 13220#13228: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:14:57 [warn] 12628#13196: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:14:58 [warn] 6708#12444: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:14:58 [warn] 1200#1204: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:16:04 [notice] 2828#7328: signal process started
+2020/07/16 19:16:12 [error] 8428#6472: *1 CreateFile() "c:\dev\projects\local/favicon.ico" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/index.txt"
+2020/07/16 19:17:36 [warn] 14192#14188: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:17:36 [notice] 14192#14188: signal process started
+2020/07/16 19:17:37 [warn] 13344#13352: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:17:37 [warn] 10800#12824: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:17:37 [warn] 3016#8364: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:17:37 [warn] 11156#12932: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:17:59 [warn] 13668#13672: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:17:59 [notice] 13668#13672: signal process started
+2020/07/16 19:17:59 [warn] 13756#13684: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:18:00 [warn] 8372#7572: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:18:00 [warn] 13512#13520: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:18:00 [warn] 13824#13308: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:19:47 [warn] 6260#7936: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:19:47 [notice] 6260#7936: signal process started
+2020/07/16 19:19:47 [warn] 6528#2420: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:19:47 [warn] 1360#6484: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:19:47 [warn] 5896#12292: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:19:47 [warn] 8344#8904: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:21:23 [notice] 2012#9508: signal process started
+2020/07/16 19:22:34 [error] 6696#2732: *4 CreateFile() "c:\dev\projects\local/index.txt" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /index.txt HTTP/1.1", host: "localhost"
+2020/07/16 19:23:36 [notice] 13132#4824: signal process started
+2020/07/16 19:32:33 [notice] 10192#9484: signal process started
+2020/07/16 19:33:18 [warn] 3124#1572: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:33:18 [notice] 3124#1572: signal process started
+2020/07/16 19:33:18 [warn] 4276#2332: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:33:18 [warn] 4944#9300: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:33:18 [warn] 14128#13876: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:33:18 [warn] 13204#6416: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:33:39 [notice] 5888#4376: signal process started
+2020/07/16 19:35:57 [warn] 12824#3440: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:35:57 [notice] 12824#3440: signal process started
+2020/07/16 19:35:57 [warn] 10404#4496: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:35:57 [warn] 12228#14208: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:35:57 [warn] 4240#13072: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:35:57 [warn] 11972#13732: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:36:16 [warn] 7464#1632: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:36:16 [notice] 7464#1632: signal process started
+2020/07/16 19:36:16 [warn] 11256#13528: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:37:00 [notice] 8012#1856: signal process started
+2020/07/16 19:37:02 [error] 3764#2756: *4 CreateFile() "c:\dev\projects\local/images/web_technologies.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /images/web_technologies.png HTTP/1.1", host: "localhost"
+2020/07/16 19:37:53 [notice] 13668#7708: signal process started
+2020/07/16 19:37:56 [error] 3764#2756: *5 CreateFile() "c:\dev\projects\local/images/web_technologies.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /images/web_technologies.png HTTP/1.1", host: "localhost"
+2020/07/16 19:37:57 [error] 3764#2756: *6 CreateFile() "c:\dev\projects\local/images/web_technologies.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /images/web_technologies.png HTTP/1.1", host: "localhost"
+2020/07/16 19:38:58 [warn] 1440#2620: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:38:58 [notice] 1440#2620: signal process started
+2020/07/16 19:38:58 [warn] 5452#9760: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:39:22 [warn] 7264#9840: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:39:22 [notice] 7264#9840: signal process started
+2020/07/16 19:39:22 [warn] 9336#14120: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:40:08 [warn] 9696#9208: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:40:08 [notice] 9696#9208: signal process started
+2020/07/16 19:40:08 [warn] 12324#4284: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:40:43 [notice] 13888#10656: signal process started
+2020/07/16 19:41:30 [warn] 4548#8320: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:41:30 [notice] 4548#8320: signal process started
+2020/07/16 19:41:30 [warn] 14000#13236: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:44:15 [warn] 13428#4436: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:44:15 [notice] 13428#4436: signal process started
+2020/07/16 19:44:15 [warn] 7344#13080: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:44:48 [warn] 4104#9836: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:44:48 [notice] 4104#9836: signal process started
+2020/07/16 19:44:48 [warn] 13516#10276: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:45:21 [warn] 7708#6040: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:45:21 [notice] 7708#6040: signal process started
+2020/07/16 19:45:21 [warn] 2552#1512: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/16 19:45:36 [notice] 8996#12724: signal process started
+2020/07/16 19:47:30 [notice] 12088#11772: signal process started
+2020/07/16 19:51:18 [notice] 3044#1048: signal process started
+2020/07/16 19:51:29 [notice] 13944#7300: signal process started
+2020/07/16 19:56:08 [notice] 10080#10680: signal process started
+2020/07/16 19:56:11 [error] 4104#1572: *20 CreateFile() "c:\dev\projects\local/index.txt" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /index.txt HTTP/1.1", host: "localhost"
+2020/07/16 19:56:11 [error] 4104#1572: *20 CreateFile() "c:\dev\projects\local/index.txt" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /index.txt HTTP/1.1", host: "localhost"
+2020/07/16 19:56:11 [error] 4104#1572: *20 CreateFile() "c:\dev\projects\local/index.txt" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /index.txt HTTP/1.1", host: "localhost"
+2020/07/16 19:56:11 [error] 4104#1572: *20 CreateFile() "c:\dev\projects\local/index.txt" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /index.txt HTTP/1.1", host: "localhost"
+2020/07/16 19:56:11 [error] 4104#1572: *20 CreateFile() "c:\dev\projects\local/index.txt" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /index.txt HTTP/1.1", host: "localhost"
+2020/07/16 19:56:12 [error] 4104#1572: *20 CreateFile() "c:\dev\projects\local/index.txt" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /index.txt HTTP/1.1", host: "localhost"
+2020/07/16 19:56:12 [error] 4104#1572: *20 CreateFile() "c:\dev\projects\local/index.txt" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /index.txt HTTP/1.1", host: "localhost"
+2020/07/16 19:56:19 [notice] 3436#9896: signal process started
+2020/07/16 19:56:20 [error] 4104#1572: *21 CreateFile() "c:\dev\projects\local/index.txt" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /index.txt HTTP/1.1", host: "localhost"
+2020/07/16 20:00:06 [error] 7344#1856: *24 CreateFile() "C:\Repository\TrevelLine\Lw1\dev\nginx/data/index.txt.conf" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /index.txt.conf HTTP/1.1", host: "localhost"
+2020/07/16 20:58:24 [crit] 7344#1856: *38 CreateFile() "C:\Repository\TrevelLine\Lw1\dev\nginx/data/C:/test" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: , request: "GET /C:/test HTTP/1.1", host: "localhost"
+2020/07/16 20:58:32 [crit] 7344#1856: *39 CreateFile() "C:\Repository\TrevelLine\Lw1\dev\nginx/data/C:/test/hello.txt" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: , request: "GET /C:/test/hello.txt HTTP/1.1", host: "localhost"
+2020/07/16 21:09:06 [error] 7344#1856: *42 directory index of "C:\Repository\TrevelLine\Lw1\dev\nginx/data/" is forbidden, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2020/07/16 21:10:08 [error] 7344#1856: *42 CreateFile() "C:\Repository\TrevelLine\Lw1\dev\nginx/data/lw1/mysql_is_a_database_server.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /lw1/mysql_is_a_database_server.html HTTP/1.1", host: "localhost"
+2020/07/16 21:23:18 [error] 7344#1856: *46 CreateFile() "C:\Repository\TrevelLine\Lw1\dev\nginx/data/lw1/mysql_is_a_database_server.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /lw1/mysql_is_a_database_server.html HTTP/1.1", host: "localhost"
+2020/07/16 21:47:53 [notice] 14796#9416: signal process started
+2020/07/16 22:05:45 [notice] 8244#3708: signal process started
+2020/07/16 22:05:56 [error] 13736#5776: *80 CreateFile() "C:\Repository\TrevelLine\Lw1\dev\nginx/data/33.php" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /33.php HTTP/1.1", host: "localhost"
+2020/07/16 22:13:53 [emerg] 10548#11236: CreateFile() "C:\Repository\TrevelLine\Lw1\dev\nginx/conf/common/php-fpm" failed (3: The system cannot find the path specified) in C:\Repository\TrevelLine\Lw1\dev\nginx/conf/nginx.conf:28
+2020/07/16 22:17:27 [emerg] 13344#3036: CreateFile() "C:\Repository\TrevelLine\Lw1\dev\nginx/conf/common/php-fpm" failed (3: The system cannot find the path specified) in C:\Repository\TrevelLine\Lw1\dev\nginx/conf/nginx.conf:28
+2020/07/16 22:18:20 [notice] 6564#7416: signal process started
+2020/07/16 22:19:30 [notice] 5328#14724: signal process started
+2020/07/16 22:20:03 [emerg] 7120#15044: CreateFile() "C:\Repository\TrevelLine\Lw1\dev\nginx/conf/common/php-fpm" failed (3: The system cannot find the path specified) in C:\Repository\TrevelLine\Lw1\dev\nginx/conf/nginx.conf:28
+2020/07/16 22:20:26 [emerg] 1660#14744: CreateFile() "C:\Repository\TrevelLine\Lw1\dev\nginx/conf/common/php-fpm" failed (3: The system cannot find the path specified) in C:\Repository\TrevelLine\Lw1\dev\nginx/conf/nginx.conf:29
+2020/07/16 22:26:53 [emerg] 15184#3168: CreateFile() "C:/etc/nginx/fastcgi.conf" failed (3: The system cannot find the path specified) in C:\Repository\TrevelLine\Lw1\dev\nginx/conf/nginx.conf:28
+2020/07/16 22:29:06 [emerg] 9308#15040: CreateFile() "C:/etc/nginx/fastcgi.conf" failed (3: The system cannot find the path specified) in C:\Repository\TrevelLine\Lw1\dev\nginx/conf/nginx.conf:28
+2020/07/16 22:29:55 [emerg] 8896#5724: CreateFile() "C:/etc/nginx/fastcgi.conf" failed (3: The system cannot find the path specified) in C:\Repository\TrevelLine\Lw1\dev\nginx/conf/nginx.conf:29
+2020/07/16 22:30:17 [emerg] 5776#9836: CreateFile() "C:/etc/nginx/fastcgi.conf" failed (3: The system cannot find the path specified) in C:\Repository\TrevelLine\Lw1\dev\nginx/conf/nginx.conf:31
+2020/07/16 22:36:41 [notice] 9124#9636: signal process started
+2020/07/16 22:37:09 [notice] 7344#9308: signal process started
+2020/07/16 22:37:26 [notice] 13648#13512: signal process started
+2020/07/16 22:39:14 [error] 15104#7672: *101 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /lw1/33.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2020/07/16 22:39:45 [error] 15104#7672: *105 CreateFile() "C:\Repository\TrevelLine\Lw1\dev\nginx/data/lw1/in.ph" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /lw1/in.ph HTTP/1.1", host: "localhost"
+2020/07/16 22:39:52 [error] 15104#7672: *106 CreateFile() "C:\Repository\TrevelLine\Lw1\dev\nginx/data/lw1/index.ph" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /lw1/index.ph HTTP/1.1", host: "localhost"
+2020/07/16 22:40:07 [error] 15104#7672: *111 CreateFile() "C:\Repository\TrevelLine\Lw1\dev\nginx/data/lw1/index.ph" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /lw1/index.ph HTTP/1.1", host: "localhost"
+2020/07/16 22:40:08 [error] 15104#7672: *111 CreateFile() "C:\Repository\TrevelLine\Lw1\dev\nginx/data/lw1/index.ph" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /lw1/index.ph HTTP/1.1", host: "localhost"
+2020/07/16 22:40:08 [error] 15104#7672: *111 CreateFile() "C:\Repository\TrevelLine\Lw1\dev\nginx/data/lw1/index.ph" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /lw1/index.ph HTTP/1.1", host: "localhost"
+2020/07/16 22:40:14 [error] 15104#7672: *111 CreateFile() "C:\Repository\TrevelLine\Lw1\dev\nginx/data/lw1/index.ph" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /lw1/index.ph HTTP/1.1", host: "localhost"
+2020/07/16 22:40:15 [error] 15104#7672: *111 CreateFile() "C:\Repository\TrevelLine\Lw1\dev\nginx/data/lw1/index.ph" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /lw1/index.ph HTTP/1.1", host: "localhost"
+2020/07/16 22:40:15 [error] 15104#7672: *111 CreateFile() "C:\Repository\TrevelLine\Lw1\dev\nginx/data/lw1/index.ph" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /lw1/index.ph HTTP/1.1", host: "localhost"
+2020/07/16 22:40:15 [error] 15104#7672: *111 CreateFile() "C:\Repository\TrevelLine\Lw1\dev\nginx/data/lw1/index.ph" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /lw1/index.ph HTTP/1.1", host: "localhost"
+2020/07/16 22:41:17 [error] 15104#7672: *111 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /lw1/index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2020/07/16 23:07:49 [error] 15104#7672: *120 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /lw1/index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2020/07/17 00:01:33 [notice] 9264#6444: signal process started
+2020/07/17 00:03:55 [notice] 5520#8352: signal process started
+2020/07/17 00:06:44 [error] 14252#15340: *151 CreateFile() "C:\Repository\TrevelLine\Lw1\dev\nginx/data/lw1/text.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /lw1/text.html HTTP/1.1", host: "localhost"
+2020/07/17 00:16:28 [notice] 11924#2104: signal process started
+2020/07/17 00:16:49 [notice] 9696#6076: signal process started
+2020/07/17 00:16:49 [error] 9696#6076: CreateFile() "C:\Repository\TrevelLine\Lw1\dev\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)

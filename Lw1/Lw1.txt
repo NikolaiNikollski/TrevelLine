@@ -1,0 +1,67 @@
+1)
+a)/index.txt
+Content-Type:   text/plain
+Content-Length: 14
+Server:         nginx/1.2.2
+
+b)/image/web_technologies.png
+Content-Type:   image/png
+Content-Length: 335525
+Server:         nginx/1.2.2
+
+c)/media/Water.mp4
+Content-Type:   application/octet-stream
+Content-Length: 1137202
+Server:         nginx/1.2.2
+
+2)
+a)Status Code: 404 Not Found
+код ошибки
+файл не найден, он, в самом деле, отсутствует
+решение: добавить файл на сервер =)
+
+b)Status Code: 200 OK
+все ок, увидел текст
+если используется cash то далее будет возвращать 304
+
+c)tatus Code: 302 Found
+специальное поведение веб сервера. 
+перенапраление на другую страницу
+
+добаввился заголовок:
+Location: http://fi2.php.net/manual/ru/
+
+d)специальное поведение веб сервера. 
+Status Code: 200 OK
+
+добавился заголовок:
+Status: 400 Work hard!
+
+3)
+Параметр charset у заголовка Content-Type требуется для определения кодировки. 
+Если charset будет не задан или будет задан не верно, то результат будет зависеть от сервера.
+Сервер может сам 'догадаться' какая нужна кодировка, в противном случае пользователь увидит 'крокозябры'.
+(php сервер догадался, nginx нет)
+ 
+в примере  http://localhost/lw1/all_begin_from_http.html
+не хватает тега, указывающего кодировку <meta charset='UTF-8'> 
+без него charset у заголовка Content-Type не определен, 
+а на сервере nginx по усолчанию для файлов с расширением .html,
+видимо, другая кодировка
+
+Чтобы исправить, нужно добавить тег <meta charset='UTF-8'> 
+(весьма желательно в header)
+Не будет лишним на сервере поставить utf-8 кодировку по умолчанию
+charset UTF-8; в блок сервера
+
+
+
+
+
+
+
+
+
+
+
+
