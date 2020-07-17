@@ -294,3 +294,12 @@
 2020/07/17 00:16:28 [notice] 11924#2104: signal process started
 2020/07/17 00:16:49 [notice] 9696#6076: signal process started
 2020/07/17 00:16:49 [error] 9696#6076: CreateFile() "C:\Repository\TrevelLine\Lw1\dev\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2020/07/17 00:36:33 [notice] 15340#15292: signal process started
+2020/07/17 00:36:35 [error] 6288#6460: *4 CreateFile() "c:\dev\projects\local/lw1/all_begin_from_http.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /lw1/all_begin_from_http.html HTTP/1.1", host: "localhost"
+2020/07/17 00:36:35 [error] 6288#6460: *4 CreateFile() "c:\dev\projects\local/lw1/all_begin_from_http.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /lw1/all_begin_from_http.html HTTP/1.1", host: "localhost"
+2020/07/17 00:36:35 [error] 6288#6460: *4 CreateFile() "c:\dev\projects\local/lw1/all_begin_from_http.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /lw1/all_begin_from_http.html HTTP/1.1", host: "localhost"
+2020/07/17 00:36:35 [error] 6288#6460: *4 CreateFile() "c:\dev\projects\local/lw1/all_begin_from_http.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /lw1/all_begin_from_http.html HTTP/1.1", host: "localhost"
+2020/07/17 00:36:36 [error] 6288#6460: *4 CreateFile() "c:\dev\projects\local/lw1/all_begin_from_http.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /lw1/all_begin_from_http.html HTTP/1.1", host: "localhost"
+2020/07/17 00:36:36 [error] 6288#6460: *4 CreateFile() "c:\dev\projects\local/lw1/all_begin_from_http.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /lw1/all_begin_from_http.html HTTP/1.1", host: "localhost"
+2020/07/17 00:36:36 [error] 6288#6460: *4 CreateFile() "c:\dev\projects\local/lw1/all_begin_from_http.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /lw1/all_begin_from_http.html HTTP/1.1", host: "localhost"
+2020/07/17 00:36:40 [error] 6288#6460: *4 CreateFile() "c:\dev\projects\local/lw1/all_begin_from_http.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /lw1/all_begin_from_http.html HTTP/1.1", host: "localhost"

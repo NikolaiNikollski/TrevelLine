@@ -66,16 +66,23 @@ END; {DecToBinStr}
 
 BEGIN {TextToCodeConverter}
   ASSIGN(OUTPUT, 'output.txt');
-  REWRITE(OUTPUT);
-  IF NOT EOLN THEN WRITELN('Char ', 'Dec ', 'Hex ', 'Bin ');
-  WHILE NOT EOLN
-  DO
+  {$I-}
+    REWRITE(OUTPUT);
+  {$I+}
+  IF IORESULT = 0
+  THEN
     BEGIN
-      READ(Ch);
-      DecInt := ORD(Ch);
-      Dec := DecIntToStr(DecInt);
-      Bin := DecToBin(DecInt);
-      Hex := DecToHex(DecInt);
-      WRITELN(Ch, '    ', Dec, ' ', Hex, '  ', Bin);
-    END;
+      IF NOT EOLN THEN WRITELN('Char ', 'Dec ', 'Hex ', 'Bin ');
+      WHILE NOT EOLN
+      DO
+        BEGIN
+          READ(Ch);
+          DecInt := ORD(Ch);
+          Dec := DecIntToStr(DecInt);
+          Bin := DecToBin(DecInt);
+          Hex := DecToHex(DecInt);
+          WRITELN(Ch, '    ', Dec, ' ', Hex, '  ', Bin)
+        END;
+      CLOSE(OUTPUT)
+    END
 END. {TextToCodeConverter}
