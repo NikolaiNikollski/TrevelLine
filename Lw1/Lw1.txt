@@ -46,7 +46,7 @@ Status: 400 Work hard!
 в примере  http://localhost/lw1/all_begin_from_http.html
 не хватает тега, указывающего кодировку <meta charset='UTF-8'> 
 без него charset у заголовка Content-Type не определен, 
-а на сервере nginx по усолчанию для файлов с расширением .html,
+а на сервере nginx по умолчанию для файлов с расширением .html,
 видимо, другая кодировка
 
 Чтобы исправить, нужно добавить тег <meta charset='UTF-8'> 
