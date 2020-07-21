@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace print_args
+namespace printArgs
 {
     class Program
     {
