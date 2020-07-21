@@ -1,33 +1,38 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace remove_duplicates
+namespace removeDuplicates
 {
     class Program
     {
+
         static void Main(string[] args)
         {
-            if (args.Length == 0)
+            int NumberOfArguments = args.Length;
+            switch (NumberOfArguments)
             {
-                Console.WriteLine("No parameters were specified!");
+                case 0:
+                    Console.WriteLine("No parameters were specified!");
+                    break;
+                case 1:
+                    RemoveDuplicates(args[0]);
+                    break;
+                default:
+                    Console.WriteLine("Incorrect number of arguments!");
+                    Console.WriteLine("Usage remove_duplicates.exe <input string>");
+                    break;
             }
-            else if (args.Length > 1)
+        }
+        static void RemoveDuplicates(string InStr)
+        {
+            HashSet<char> InSet = new HashSet<char>();
+            for (int i = 0; i < InStr.Length; i++)
             {
-                Console.WriteLine("Incorrect number of arguments!");
-                Console.WriteLine("Usage remove_duplicates.exe <input string>");
+                InSet.Add(InStr[i]);
             }
-            else
+            foreach (char ch in InSet)
             {
-                string InStr = args[0];
-                HashSet<char> InSet = new HashSet<char>();
-                for (int i = 0; i < InStr.Length; i++)
-                {
-                    InSet.Add(InStr[i]);
-                }
-                foreach (char ch in InSet)
-                { 
-                    Console.Write(ch);
-                }
+                Console.Write(ch);
             }
         }
     }
