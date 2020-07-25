@@ -1,0 +1,13 @@
+C:\Users\Nikolsky Nikolai\source\repos\CheckIdentifier\bin\Debug\netcoreapp3.1\CheckIdentifier.exe
+C:\Users\Nikolsky Nikolai\source\repos\CheckIdentifier\bin\Debug\netcoreapp3.1\CheckIdentifier.deps.json
+C:\Users\Nikolsky Nikolai\source\repos\CheckIdentifier\bin\Debug\netcoreapp3.1\CheckIdentifier.runtimeconfig.json
+C:\Users\Nikolsky Nikolai\source\repos\CheckIdentifier\bin\Debug\netcoreapp3.1\CheckIdentifier.runtimeconfig.dev.json
+C:\Users\Nikolsky Nikolai\source\repos\CheckIdentifier\bin\Debug\netcoreapp3.1\CheckIdentifier.dll
+C:\Users\Nikolsky Nikolai\source\repos\CheckIdentifier\bin\Debug\netcoreapp3.1\CheckIdentifier.pdb
+C:\Users\Nikolsky Nikolai\source\repos\CheckIdentifier\obj\Debug\netcoreapp3.1\CheckIdentifier.csprojAssemblyReference.cache
+C:\Users\Nikolsky Nikolai\source\repos\CheckIdentifier\obj\Debug\netcoreapp3.1\CheckIdentifier.AssemblyInfoInputs.cache
+C:\Users\Nikolsky Nikolai\source\repos\CheckIdentifier\obj\Debug\netcoreapp3.1\CheckIdentifier.AssemblyInfo.cs
+C:\Users\Nikolsky Nikolai\source\repos\CheckIdentifier\obj\Debug\netcoreapp3.1\CheckIdentifier.csproj.CoreCompileInputs.cache
+C:\Users\Nikolsky Nikolai\source\repos\CheckIdentifier\obj\Debug\netcoreapp3.1\CheckIdentifier.dll
+C:\Users\Nikolsky Nikolai\source\repos\CheckIdentifier\obj\Debug\netcoreapp3.1\CheckIdentifier.pdb
+C:\Users\Nikolsky Nikolai\source\repos\CheckIdentifier\obj\Debug\netcoreapp3.1\CheckIdentifier.genruntimeconfig.cache
