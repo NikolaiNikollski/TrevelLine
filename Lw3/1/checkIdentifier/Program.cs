@@ -5,6 +5,7 @@ namespace checkIdentifier
 {
     public class Program
     {
+        public const int ArgsNum = 1;
         public const string ArgsNumError = "Incorrect number of arguments!",
                             PosResponse = "yes",
                             NegResponse = "No\n" +
@@ -12,16 +13,10 @@ namespace checkIdentifier
                                           "An identifier cannot start with a digit.";
         static void Main(string[] args)
         {
-            if (args.Length != 1)
+            if (args.Length != ArgsNum)
                 Console.WriteLine(ArgsNumError);
             else
-            {
                 Console.WriteLine(new Identifier().IsIdentifier(args[0]) ? PosResponse : NegResponse);
-              /*  if (new Identifier().IsIdentifier(args[0]))
-                    Console.WriteLine(PosResponse);
-                else
-                    Console.WriteLine(NegResponse);*/
-            }
         }
     }
 }
