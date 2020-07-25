@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckIdentifier", "CheckIdentifier.csproj", "{C77B2E63-644F-404B-9B1D-A49BFC2A3EC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "checkIdentifier", "checkIdentifier.csproj", "{C77B2E63-644F-404B-9B1D-A49BFC2A3EC0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckIdentifierTests", "..\CheckIdentifierTests\CheckIdentifierTests.csproj", "{8340E99E-464F-4283-9CE7-BEA9D82CD872}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "checkIdentifierTests", "..\CheckIdentifierTests\checkIdentifierTests.csproj", "{8340E99E-464F-4283-9CE7-BEA9D82CD872}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -16,7 +16,7 @@ namespace checkIdentifier
             if (args.Length != ArgsNum)
                 Console.WriteLine(ArgsNumError);
             else
-                Console.WriteLine(new Identifier().IsIdentifier(args[0]) ? PosResponse : NegResponse);
+                Console.WriteLine(args[0].IsIdentifier() ? PosResponse : NegResponse);
         }
     }
 }

@@ -1635,14 +1635,14 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "CheckIdentifier/1.0.0": {
+      "checkIdentifier/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "compile": {
-          "bin/placeholder/CheckIdentifier.dll": {}
+          "bin/placeholder/checkIdentifier.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CheckIdentifier.dll": {}
+          "bin/placeholder/checkIdentifier.dll": {}
         }
       }
     }
@@ -5716,18 +5716,18 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "CheckIdentifier/1.0.0": {
+    "checkIdentifier/1.0.0": {
       "type": "project",
-      "path": "../checkIdentifier/CheckIdentifier.csproj",
-      "msbuildProject": "../checkIdentifier/CheckIdentifier.csproj"
+      "path": "../checkIdentifier/checkIdentifier.csproj",
+      "msbuildProject": "../checkIdentifier/checkIdentifier.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "CheckIdentifier >= 1.0.0",
       "MSTest.TestAdapter >= 2.1.0",
       "MSTest.TestFramework >= 2.1.0",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
+      "checkIdentifier >= 1.0.0",
       "coverlet.collector >= 1.2.0"
     ]
   },
@@ -5737,9 +5737,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Repository\\TrevelLine\\Lw3\\1\\CheckIdentifierTests\\CheckIdentifierTests.csproj",
-      "projectName": "CheckIdentifierTests",
-      "projectPath": "C:\\Repository\\TrevelLine\\Lw3\\1\\CheckIdentifierTests\\CheckIdentifierTests.csproj",
+      "projectUniqueName": "C:\\Repository\\TrevelLine\\Lw3\\1\\CheckIdentifierTests\\checkIdentifierTests.csproj",
+      "projectName": "checkIdentifierTests",
+      "projectPath": "C:\\Repository\\TrevelLine\\Lw3\\1\\CheckIdentifierTests\\checkIdentifierTests.csproj",
       "packagesPath": "C:\\Users\\Nikolsky Nikolai\\.nuget\\packages\\",
       "outputPath": "C:\\Repository\\TrevelLine\\Lw3\\1\\CheckIdentifierTests\\obj\\",
       "projectStyle": "PackageReference",
@@ -5757,8 +5757,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Repository\\TrevelLine\\Lw3\\1\\CheckIdentifier\\CheckIdentifier.csproj": {
-              "projectPath": "C:\\Repository\\TrevelLine\\Lw3\\1\\CheckIdentifier\\CheckIdentifier.csproj"
+            "C:\\Repository\\TrevelLine\\Lw3\\1\\checkIdentifier\\checkIdentifier.csproj": {
+              "projectPath": "C:\\Repository\\TrevelLine\\Lw3\\1\\checkIdentifier\\checkIdentifier.csproj"
             }
           }
         }

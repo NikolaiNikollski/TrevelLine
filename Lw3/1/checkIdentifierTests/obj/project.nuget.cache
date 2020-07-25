@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "n7+bDuOpBKwBVJhsruJ+FyyNxTrcxdz0iu6QdwzOju4PU6+TvyZaEAlGQ+Tud9y87EddNZn08qx4+NFhzy9b2g==",
+  "dgSpecHash": "fGrhLf95Vc6GwUgLckf4KWvwrK17isv7oYiAzpcavba3sun3JoFGSIi9mcTNHq0l1U3zdLDpa65D1xAwoinrEA==",
   "success": true,
-  "projectFilePath": "C:\\Repository\\TrevelLine\\Lw3\\1\\CheckIdentifierTests\\CheckIdentifierTests.csproj",
+  "projectFilePath": "C:\\Repository\\TrevelLine\\Lw3\\1\\CheckIdentifierTests\\checkIdentifierTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nikolsky Nikolai\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\Nikolsky Nikolai\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",

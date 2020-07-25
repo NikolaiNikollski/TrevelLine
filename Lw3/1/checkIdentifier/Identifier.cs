@@ -6,12 +6,12 @@ using System.Text.RegularExpressions;
 
 namespace checkIdentifier
 {
-    public class Identifier
+    public static class StringExtension
     {
-        public bool IsIdentifier(string InStr)
+        public static bool IsIdentifier(this string str)
         {
             Regex regix = new Regex(@"^[^\W\d]{1}\w*$"); //[^\W\d] is alphabet symbol
-            return regix.IsMatch(InStr);
+            return regix.IsMatch(str);
         }
     }
 }

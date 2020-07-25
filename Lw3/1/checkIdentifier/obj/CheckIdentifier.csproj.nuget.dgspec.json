@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Repository\\TrevelLine\\Lw3\\1\\checkIdentifier\\CheckIdentifier.csproj": {}
+    "C:\\Repository\\TrevelLine\\Lw3\\1\\checkIdentifier\\checkIdentifier.csproj": {}
   },
   "projects": {
-    "C:\\Repository\\TrevelLine\\Lw3\\1\\checkIdentifier\\CheckIdentifier.csproj": {
+    "C:\\Repository\\TrevelLine\\Lw3\\1\\checkIdentifier\\checkIdentifier.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repository\\TrevelLine\\Lw3\\1\\checkIdentifier\\CheckIdentifier.csproj",
-        "projectName": "CheckIdentifier",
-        "projectPath": "C:\\Repository\\TrevelLine\\Lw3\\1\\checkIdentifier\\CheckIdentifier.csproj",
+        "projectUniqueName": "C:\\Repository\\TrevelLine\\Lw3\\1\\checkIdentifier\\checkIdentifier.csproj",
+        "projectName": "checkIdentifier",
+        "projectPath": "C:\\Repository\\TrevelLine\\Lw3\\1\\checkIdentifier\\checkIdentifier.csproj",
         "packagesPath": "C:\\Users\\Nikolsky Nikolai\\.nuget\\packages\\",
         "outputPath": "C:\\Repository\\TrevelLine\\Lw3\\1\\checkIdentifier\\obj\\",
         "projectStyle": "PackageReference",

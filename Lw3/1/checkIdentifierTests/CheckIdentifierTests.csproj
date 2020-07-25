@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CheckIdentifier\CheckIdentifier.csproj" />
+    <ProjectReference Include="..\checkIdentifier\checkIdentifier.csproj" />
   </ItemGroup>
 
 </Project>

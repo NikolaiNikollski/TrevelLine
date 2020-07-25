@@ -12,11 +12,10 @@ namespace checkIdentifier.Tests
         public void IsIdentifier_My_1st_Имя_true_returned()
         {
             //arrange
-            string InStr = "My_1st_имя";
+            string inStr = "My_1st_имя";
 
             //act
-            Identifier iden = new Identifier();
-            bool actual = iden.IsIdentifier(InStr);
+            bool actual = inStr.IsIdentifier();
 
             //assert
             Assert.IsTrue(actual);
@@ -29,8 +28,7 @@ namespace checkIdentifier.Tests
             string InStr = "1st_Name";
 
             //act
-            Identifier iden = new Identifier();
-            bool actual = iden.IsIdentifier(InStr);
+            bool actual = InStr.IsIdentifier();
 
             //assert
             Assert.IsFalse(actual);
