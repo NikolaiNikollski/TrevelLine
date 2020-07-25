@@ -1,0 +1,13 @@
+C:\Repository\TrevelLine\Lw3\2\RemoveExtraBlanks\obj\Debug\netcoreapp3.1\removeExtraBlanks.csprojAssemblyReference.cache
+C:\Repository\TrevelLine\Lw3\2\RemoveExtraBlanks\obj\Debug\netcoreapp3.1\removeExtraBlanks.AssemblyInfoInputs.cache
+C:\Repository\TrevelLine\Lw3\2\RemoveExtraBlanks\obj\Debug\netcoreapp3.1\removeExtraBlanks.AssemblyInfo.cs
+C:\Repository\TrevelLine\Lw3\2\RemoveExtraBlanks\obj\Debug\netcoreapp3.1\removeExtraBlanks.csproj.CoreCompileInputs.cache
+C:\Repository\TrevelLine\Lw3\2\RemoveExtraBlanks\bin\Debug\netcoreapp3.1\removeExtraBlanks.exe
+C:\Repository\TrevelLine\Lw3\2\RemoveExtraBlanks\bin\Debug\netcoreapp3.1\removeExtraBlanks.deps.json
+C:\Repository\TrevelLine\Lw3\2\RemoveExtraBlanks\bin\Debug\netcoreapp3.1\removeExtraBlanks.runtimeconfig.json
+C:\Repository\TrevelLine\Lw3\2\RemoveExtraBlanks\bin\Debug\netcoreapp3.1\removeExtraBlanks.runtimeconfig.dev.json
+C:\Repository\TrevelLine\Lw3\2\RemoveExtraBlanks\bin\Debug\netcoreapp3.1\removeExtraBlanks.dll
+C:\Repository\TrevelLine\Lw3\2\RemoveExtraBlanks\bin\Debug\netcoreapp3.1\removeExtraBlanks.pdb
+C:\Repository\TrevelLine\Lw3\2\RemoveExtraBlanks\obj\Debug\netcoreapp3.1\removeExtraBlanks.dll
+C:\Repository\TrevelLine\Lw3\2\RemoveExtraBlanks\obj\Debug\netcoreapp3.1\removeExtraBlanks.pdb
+C:\Repository\TrevelLine\Lw3\2\RemoveExtraBlanks\obj\Debug\netcoreapp3.1\removeExtraBlanks.genruntimeconfig.cache
