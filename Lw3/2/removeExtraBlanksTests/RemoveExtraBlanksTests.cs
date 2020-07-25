@@ -7,7 +7,7 @@ using System.Text;
 namespace removeExtraBlanks.Tests
 {
     [TestClass()]
-    public class StringProcessTests
+    public class RemoveExtraBlanksTests
     {
         [TestMethod()]
         public void RemoveExtraBlanks_Space_test()
@@ -17,8 +17,7 @@ namespace removeExtraBlanks.Tests
             string expected = "Hello World";
 
             //act
-            StringProcess SP = new StringProcess();
-            string actual = SP.RemoveExtraBlanks(inStr);
+            string actual = inStr.RemoveExtraBlanks();
 
             //assert
             Assert.AreEqual(expected, actual);
@@ -32,8 +31,7 @@ namespace removeExtraBlanks.Tests
             string expected = "Hello\tWorld";
 
             //act
-            StringProcess SP = new StringProcess();
-            string actual = SP.RemoveExtraBlanks(inStr);
+            string actual = inStr.RemoveExtraBlanks();
 
             //assert
             Assert.AreEqual(expected, actual);
@@ -47,8 +45,7 @@ namespace removeExtraBlanks.Tests
             string expected = "Hello\tWorld";
 
             //act
-            StringProcess SP = new StringProcess();
-            string actual = SP.RemoveExtraBlanks(inStr);
+            string actual = inStr.RemoveExtraBlanks();
 
             //assert
             Assert.AreEqual(expected, actual);

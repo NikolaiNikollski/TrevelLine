@@ -5,9 +5,9 @@ using System.Text.RegularExpressions;
 
 namespace removeExtraBlanks
 {
-    public class StringProcess
+    public static class StringExtension
     {
-        public string RemoveExtraBlanks(string inStr)
+        public static string RemoveExtraBlanks(this string str)
         {
             Dictionary<string, string> ReplaceDictioary = new Dictionary<string, string>
             {
@@ -22,10 +22,10 @@ namespace removeExtraBlanks
                  string pattern = pair.Key;
                  string target = pair.Value;
                  Regex regex = new Regex(pattern);
-                 inStr = regex.Replace(inStr, target);
+                 str = regex.Replace(str, target);
             }
 
-            return inStr;
+            return str;
         }
     }
 }

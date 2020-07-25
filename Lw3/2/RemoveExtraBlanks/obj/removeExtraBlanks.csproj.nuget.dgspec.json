@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Repository\\TrevelLine\\Lw3\\2\\RemoveExtraBlanks\\removeExtraBlanks.csproj": {}
+    "C:\\Repository\\TrevelLine\\Lw3\\2\\removeExtraBlanks\\removeExtraBlanks.csproj": {}
   },
   "projects": {
-    "C:\\Repository\\TrevelLine\\Lw3\\2\\RemoveExtraBlanks\\removeExtraBlanks.csproj": {
+    "C:\\Repository\\TrevelLine\\Lw3\\2\\removeExtraBlanks\\removeExtraBlanks.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repository\\TrevelLine\\Lw3\\2\\RemoveExtraBlanks\\removeExtraBlanks.csproj",
+        "projectUniqueName": "C:\\Repository\\TrevelLine\\Lw3\\2\\removeExtraBlanks\\removeExtraBlanks.csproj",
         "projectName": "removeExtraBlanks",
-        "projectPath": "C:\\Repository\\TrevelLine\\Lw3\\2\\RemoveExtraBlanks\\removeExtraBlanks.csproj",
+        "projectPath": "C:\\Repository\\TrevelLine\\Lw3\\2\\removeExtraBlanks\\removeExtraBlanks.csproj",
         "packagesPath": "C:\\Users\\Nikolsky Nikolai\\.nuget\\packages\\",
-        "outputPath": "C:\\Repository\\TrevelLine\\Lw3\\2\\RemoveExtraBlanks\\obj\\",
+        "outputPath": "C:\\Repository\\TrevelLine\\Lw3\\2\\removeExtraBlanks\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nikolsky Nikolai\\AppData\\Roaming\\NuGet\\NuGet.Config",

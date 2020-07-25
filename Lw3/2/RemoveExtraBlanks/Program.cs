@@ -33,11 +33,10 @@ namespace removeExtraBlanks
                 return;
             }
             string[] file = File.ReadAllLines(inputFile);
-            StringProcess stringProcess = new StringProcess();
             for (int i = 0; i < file.Length; i++)
-                file[i] = stringProcess.RemoveExtraBlanks(file[i]);
+                file[i] = file[i].RemoveExtraBlanks();
             File.WriteAllLines(outputFile, file);
-            Console.WriteLine(SuccessResponse);       
+            Console.WriteLine(SuccessResponse);    
         }
     }
 }

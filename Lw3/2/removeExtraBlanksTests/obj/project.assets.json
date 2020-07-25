@@ -5718,8 +5718,8 @@
     },
     "removeExtraBlanks/1.0.0": {
       "type": "project",
-      "path": "../RemoveExtraBlanks/removeExtraBlanks.csproj",
-      "msbuildProject": "../RemoveExtraBlanks/removeExtraBlanks.csproj"
+      "path": "../removeExtraBlanks/removeExtraBlanks.csproj",
+      "msbuildProject": "../removeExtraBlanks/removeExtraBlanks.csproj"
     }
   },
   "projectFileDependencyGroups": {
