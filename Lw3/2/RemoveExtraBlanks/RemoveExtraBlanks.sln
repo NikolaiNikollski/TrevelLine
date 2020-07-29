@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "removeExtraBlanks", "removeExtraBlanks.csproj", "{B30E9AE5-150E-438A-82CD-3E561201B0F8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "removeExtraBlanksTests", "..\removeExtraBlanksTests\removeExtraBlanksTests.csproj", "{3A4D0490-0937-45F2-9A7D-B5AFFB47ECB4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "removeExtraBlanksTests", "..\removeExtraBlanksTests\removeExtraBlanksTests.csproj", "{3B242340-A7F6-4315-B696-1203E59718E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{B30E9AE5-150E-438A-82CD-3E561201B0F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B30E9AE5-150E-438A-82CD-3E561201B0F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B30E9AE5-150E-438A-82CD-3E561201B0F8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3A4D0490-0937-45F2-9A7D-B5AFFB47ECB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3A4D0490-0937-45F2-9A7D-B5AFFB47ECB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3A4D0490-0937-45F2-9A7D-B5AFFB47ECB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3A4D0490-0937-45F2-9A7D-B5AFFB47ECB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B242340-A7F6-4315-B696-1203E59718E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B242340-A7F6-4315-B696-1203E59718E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B242340-A7F6-4315-B696-1203E59718E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B242340-A7F6-4315-B696-1203E59718E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
