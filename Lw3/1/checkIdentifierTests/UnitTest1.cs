@@ -11,10 +11,10 @@ namespace checkIdentifierTests
         }
 
         [Test]
-        public void IsIdentifier_My_1st_Имя_TrueReturned()
+        public void IsIdentifier_snake_case_TrueReturned()
         {
             //Arrange
-            string inStr = "My_1st_имя";
+            string inStr = "snake_case";
 
             //Act
             bool actual = inStr.IsIdentifier();
@@ -27,7 +27,7 @@ namespace checkIdentifierTests
         public void IsIdentifier_1stName_TrueReturned()
         {
             //Arrange
-            string InStr = "1st_Name";
+            string InStr = "1stName";
 
             //Act
             bool actual = InStr.IsIdentifier();
