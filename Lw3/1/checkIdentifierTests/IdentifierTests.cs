@@ -9,7 +9,7 @@ namespace checkIdentifier.Tests
     public class IdentifierTests
     {
         [TestMethod()]
-        public void IsIdentifier_My_1st_Имя_true_returned()
+        public void IsIdentifier_My_1st_Имя_TrueReturned()
         {
             //arrange
             string inStr = "My_1st_имя";
@@ -22,7 +22,7 @@ namespace checkIdentifier.Tests
         }
 
         [TestMethod()]
-        public void IsIdentifier_1stName_true_returned()
+        public void IsIdentifier_1stName_TrueReturned()
         {
             //arrange
             string InStr = "1st_Name";
