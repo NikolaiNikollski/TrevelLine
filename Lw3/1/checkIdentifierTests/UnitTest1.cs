@@ -24,7 +24,7 @@ namespace checkIdentifierTests
         }
 
         [Test]
-        public void IsIdentifier_1stName_TrueReturned()
+        public void IsIdentifier_1stName_FalseReturned()
         {
             //Arrange
             string InStr = "1stName";
