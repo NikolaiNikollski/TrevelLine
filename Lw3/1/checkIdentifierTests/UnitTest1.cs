@@ -11,7 +11,7 @@ namespace checkIdentifierTests
         }
 
         [Test]
-        public void IsIdentifier_snake_case_TrueReturned()
+        public void IsIdentifier_snake_case_TrueReturned() //проверка на латиницу и нижнее подчеркивание
         {
             //Arrange
             string inStr = "snake_case";
