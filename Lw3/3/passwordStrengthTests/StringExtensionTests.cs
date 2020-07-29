@@ -5,13 +5,13 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace inPasswordStrength.Tests
+namespace getPasswordStrength.Tests
 {
     [TestClass()]
     public class StringExtensionTests
     {
         [TestMethod()]
-        public void GetPasswordStrength_invalidSymbol_minus1return()
+        public void GetPasswordStrength_InvalidSymbol_Minus1return()
         {
             // arrange
             string inStr = "*"; //points 1 check
@@ -24,7 +24,7 @@ namespace inPasswordStrength.Tests
             Assert.AreEqual(expected, actual);
         }
         [TestMethod()]
-        public void GetPasswordStrength_emptyString_minus1return()
+        public void GetPasswordStrength_EmptyString_Minus1return()
         {
             // arrange
             string inStr = ""; //points 1 check
@@ -78,20 +78,13 @@ namespace inPasswordStrength.Tests
             //assert
             Assert.AreEqual(expected, actual);
         }
-    }
-}
 
-namespace passwordStrength.Tests
-{
-    [TestClass()]
-    public class StringExtensionTests
-    {
         [TestMethod()]
         public void GetRepeatedCharNumber_HiThere_4return()
         {
             // arrange
             string inStr = "HiTHere";
-            int expected =4;
+            int expected = 4;
 
             //act
             int actual = inStr.GetRepeatedCharNumber();

@@ -10,7 +10,7 @@ namespace removeExtraBlanks.Tests
     public class RemoveExtraBlanksTests
     {
         [TestMethod()]
-        public void RemoveExtraBlanks_Space_test()
+        public void RemoveExtraBlanks_ExtraSpace_DeleteExtraSpace()
         {
             // arrange
             string inStr = "   Hello   World   ";
@@ -24,7 +24,7 @@ namespace removeExtraBlanks.Tests
         }
 
         [TestMethod()]
-        public void RemoveExtraBlanks_Tab_test()
+        public void RemoveExtraBlanks_ExtraTabs_DeleteExtraTabs()
         {
             // arrange
             string inStr = "\t\tHello\t\tWorld\t\t";
@@ -38,7 +38,7 @@ namespace removeExtraBlanks.Tests
         }
 
         [TestMethod()]
-        public void RemoveExtraBlanks_TabAndSpace_test()
+        public void RemoveExtraBlanks_ExtraTabAndSpace_DeleteExtraTabAndSpace()
         {
             // arrange
             string inStr = " \t \t Hello \t  \t World \t \t";
