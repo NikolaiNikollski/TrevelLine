@@ -1,7 +1,7 @@
 using NUnit.Framework;
-using removeExtraBlanks;
+using RemoveExtraBlanks;
 
-namespace removeExtraBlanksTests
+namespace RemoveExtraBlanksTests
 {
     public class StringExtensionTests
     {
@@ -9,7 +9,10 @@ namespace removeExtraBlanksTests
         public void Setup()
         {
         }
-
+        [TestCase("", "")]
+        [TestCase("  ", "")]
+        [TestCase("\t\t", "")]
+        [TestCase("\t   \t\t  \t ", "")]
         [TestCase("   Hello   World   ", "Hello World")]
         [TestCase("\t\tHello\t\tWorld\t\t", "Hello\tWorld")]
         [TestCase(" \t \t Hello \t  \t World \t \t", "Hello\tWorld")]

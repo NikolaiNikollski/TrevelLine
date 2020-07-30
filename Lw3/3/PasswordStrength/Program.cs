@@ -1,7 +1,7 @@
 ﻿using System;
-using getPasswordStrength;
+using GetPasswordStrength;
 
-namespace passwordStrength
+namespace PasswordStrength
 {
     class Program
     {

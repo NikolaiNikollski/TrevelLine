@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Text;
 using System.Linq;
 using System.Reflection.Metadata.Ecma335;
-using passwordStrength;
+using PasswordStrength;
 
-namespace getPasswordStrength
+namespace GetPasswordStrength
 {
     public static class StringExtension
     {
