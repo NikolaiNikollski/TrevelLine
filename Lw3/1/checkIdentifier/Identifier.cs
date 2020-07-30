@@ -4,7 +4,8 @@ using System.Text;
 using System.Text.RegularExpressions;
 
 
-namespace СheckIdentifier
+namespace CheckIdentifier
+
 {
     public static class StringExtension
     {

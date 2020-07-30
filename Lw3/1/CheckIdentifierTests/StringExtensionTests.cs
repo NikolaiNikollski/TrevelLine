@@ -1,7 +1,7 @@
 using NUnit.Framework;
-using ÑheckIdentifier;
+using CheckIdentifier;
 
-namespace ÑheckIdentifierTests
+namespace CheckIdentifierTests
 {
     public class StringExtensionTests
     {

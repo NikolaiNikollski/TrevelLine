@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Text.RegularExpressions;
-using СheckIdentifier;
+using CheckIdentifier;
 
-namespace СheckIdentifier
+namespace CheckIdentifier
 {
     public class Program
     {
