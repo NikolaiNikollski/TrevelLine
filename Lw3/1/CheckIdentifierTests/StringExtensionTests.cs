@@ -17,11 +17,11 @@ namespace CheckIdentifierTests
         [TestCase("*", false)]
         [TestCase("AB", true)]
         [TestCase("A4", true)]
-        [TestCase("1Ñ", false)]
+        [TestCase("1Ñ", false)] 
         [TestCase("snake_case", true)]
         [TestCase("1stName", false)]
         [TestCase("Self-development", false)]
-        public void IsIdentifier_snake_case_TrueReturned(string inStr, bool expected) 
+        public void IsIdentifierTest(string inStr, bool expected) 
         {
             //Act
             bool actual = inStr.IsIdentifier();
