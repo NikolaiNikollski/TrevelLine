@@ -10,6 +10,7 @@ namespace PasswordStrength
         private string pattern;
 
         public Сriterion(string p) { pattern = p; }
+
         public int GetCount(string password)
         {
             Regex regix = new Regex(pattern);
