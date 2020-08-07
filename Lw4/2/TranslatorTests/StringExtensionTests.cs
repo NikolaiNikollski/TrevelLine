@@ -23,11 +23,11 @@ namespace Translator.Tests
         }
 
         [TestCase("")]
-        [TestCase("")]
         [TestCase("_")]
         [TestCase("приевет_")]
         [TestCase("_hello")]
         [TestCase("hello_привет")]
+        [TestCase("*_#")]
         public void ReadPairSkipTest(string str)
         {
             //Arrange
