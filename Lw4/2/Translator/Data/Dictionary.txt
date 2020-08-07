@@ -1,0 +1,4 @@
+﻿мама_mother
+папа_father
+брат_brother
+сестра_sisiter
