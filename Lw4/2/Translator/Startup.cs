@@ -41,7 +41,7 @@ namespace Translator
                 context.Response.StatusCode = 400;
                 await context.Response.WriteAsync("the parameter 'word' is missing or is set incorrectly");
             });
-          
+
         }
 
         private static void TranslateWord(IApplicationBuilder app)

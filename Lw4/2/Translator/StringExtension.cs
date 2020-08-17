@@ -14,7 +14,7 @@ namespace Translator
             string wordPairPattern = "([а-яА-Я]+)_([a-zA-Z]+)";
 
             Match match = Regex.Match((str), wordPairPattern);
-            if (match.Groups[0].Value != "")
+            if (match.Success)
             {
                 wordList.Add(new Word
                 {
